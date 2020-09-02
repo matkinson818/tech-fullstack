@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon ./main/app.js"
+  },
+  "author": "Melveta Atkinson",
+  "license": "ISC",
+  "dependencies": {
+    "admin-bro": "^3.2.0",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
